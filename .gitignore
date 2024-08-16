@@ -1,12 +1,3 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,font
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,font
-
-### Font ###
-*.fnt
-*.fon
-*.otf
-*.ttf
-
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
