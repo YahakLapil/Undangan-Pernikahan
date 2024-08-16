@@ -3,6 +3,32 @@
     src: url(GreyQo-Regular.ttf);
 }
 
+@font-face {
+    font-family: poppins;
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+
+body {
+    background-color: grey;
+}
+
+.container {
+    display: grid;
+    place-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
 h1 {
     font-family: greyqo;
+    font-size: 6rem;
+}
+
+h5, p, .btn {
+    font-family: poppins;
+}
+
+.btn {
+    width: 25%;
+    place-self: center;
 }
