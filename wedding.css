@@ -1,0 +1,8 @@
+@font-face {
+    font-family: greyqo;
+    src: url(GreyQo-Regular.ttf);
+}
+
+h1 {
+    font-family: greyqo;
+}
