@@ -8,8 +8,18 @@
     src: url(Poppins/Poppins-Regular.ttf);
 }
 
-body {
-    background-color: grey;
+.hero-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(wedding-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    z-index: -1;
 }
 
 .container {
@@ -22,13 +32,26 @@ body {
 h1 {
     font-family: greyqo;
     font-size: 6rem;
+    text-shadow: 2px 2px 1px black;
 }
 
-h5, p, .btn {
+h5, p {
     font-family: poppins;
+    text-shadow: 1px 1px 1px black;
 }
 
 .btn {
-    width: 25%;
+    font-family: poppins;
+    width: calc(25% + 5vw);
     place-self: center;
+    box-shadow: 5px 5px;
+    color: rgb(243, 105, 194);
+}
+
+.hari, .jam, .menit, .detik {
+    background-color:rgb(243, 105, 194);
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 1px black;
+    font-family: poppins;
 }

@@ -8,13 +8,24 @@
     <link rel="stylesheet" href="wedding.css">
 </head>
 <body>
-    <div class="container text-center text-white">
-        <h5>Kepada Bapak/Ibu/Saudara/I,</h5>
-        <h1>Yahak Lapil & Seseorang</h1>
-        <p>Akan melangsungkan resepsi pernikahan dalam :</p>
-        <button type="button" class="btn btn-light">Lihat Undangan</button>
+    <div class="hero-img">
+        <div class="container text-center text-white">
+            <h5>Kepada Bapak/Ibu/Saudara/I,</h5>
+            <h1>Yahak Lapil & Seseorang</h1>
+            <p>Akan melangsungkan resepsi pernikahan dalam :</p>
+            <div class="waktu mx-auto">
+                <div class="row gap-3">
+                    <div class="hari rounded-circle align-content-center" id="hari"></div>
+                    <div class="jam rounded-circle align-content-center" id="jam"></div>
+                    <div class="menit rounded-circle align-content-center" id="menit"></div>
+                    <div class="detik rounded-circle align-content-center" id="detik"></div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-light mt-5">Lihat Undangan</button>
+        </div>
     </div>
 
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="wedding.js"></script>
 </body>
 </html>
