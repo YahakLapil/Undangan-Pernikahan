@@ -43,7 +43,7 @@ h5, p {
 
 .btn {
     font-family: poppins;
-    width: calc(25% + 5vw);
+    width: 25%;
     place-self: center;
     box-shadow: 5px 5px;
     color: rgb(243, 105, 194);
@@ -70,3 +70,45 @@ h5, p {
     filter: grayscale(100%);
     z-index: -1;
 } */
+
+@media (max-width: 992px) {
+    html {
+        font-size: 75%;
+    }
+
+    .hari, .jam, .menit, .detik {
+        background-color:rgb(243, 105, 194);
+        width: 75px;
+        height: 75px;
+        box-shadow: 1px 1px 1px black;
+        font-family: poppins;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 65%;
+    }
+
+    .hari, .jam, .menit, .detik {
+        background-color:rgb(243, 105, 194);
+        width: 65px;
+        height: 65px;
+        box-shadow: 1px 1px 1px black;
+        font-family: poppins;
+    }
+}
+
+@media (max-width: 576px) {
+    html {
+        font-size: 60%;
+    }
+
+    .hari, .jam, .menit, .detik {
+        background-color:rgb(243, 105, 194);
+        width: 60px;
+        height: 60px;
+        box-shadow: 1px 1px 1px black;
+        font-family: poppins;
+    }
+}
