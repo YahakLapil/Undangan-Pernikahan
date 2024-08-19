@@ -8,16 +8,17 @@
     src: url(Poppins/Poppins-Regular.ttf);
 }
 
-.hero-img::before {
+.hero-img1::before {
     content: '';
     position: absolute;
     top: 0;
     height: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url(wedding-bg.jpg);
+    background-image: url(galeri/wedding-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     filter: grayscale(100%);
     z-index: -1;
 }
@@ -55,3 +56,17 @@ h5, p {
     box-shadow: 1px 1px 1px black;
     font-family: poppins;
 }
+
+/* .hero-img1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(galeri/wedding-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    z-index: -1;
+} */
