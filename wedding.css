@@ -57,11 +57,9 @@ h5, p {
     font-family: poppins;
 }
 
-/* .hero-img1::before {
+.hero-img2::before {
     content: '';
     position: absolute;
-    top: 0;
-    height: 0;
     width: 100vw;
     height: 100vh;
     background-image: url(galeri/wedding-bg.jpg);
@@ -69,7 +67,7 @@ h5, p {
     background-size: cover;
     filter: grayscale(100%);
     z-index: -1;
-} */
+}
 
 @media (max-width: 992px) {
     html {
