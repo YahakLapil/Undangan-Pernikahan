@@ -8,6 +8,10 @@
     src: url(Poppins/Poppins-Regular.ttf);
 }
 
+html {
+    overflow-x: hidden;
+}
+
 .hero-img1::before {
     content: '';
     position: absolute;
@@ -62,7 +66,7 @@ h5, p {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-image: url(galeri/wedding-bg.jpg);
+    background-image: url(galeri/bunga.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(100%);
